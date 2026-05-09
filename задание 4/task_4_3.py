@@ -65,3 +65,4 @@ print("-" * 70)
 final_x = newton_data[-1][1] if newton_data else x_prev
 print(f"Корень: x ≈ {final_x:.5f} (с точностью до 0.001)")
 print("=" * 70)
+input("\nНажмите любую кнопку, чтобы выйти...")
