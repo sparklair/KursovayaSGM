@@ -14,7 +14,7 @@ h_trap = (b - a) / n_trap
 
 x_trap = np.linspace(a, b, n_trap + 1)
 y_trap = f(x_trap)
-io = np.sum(y_trap[1:-1])
+
 sum_trap = (y_trap[0] + y_trap[-1]) / 2 + np.sum(y_trap[1:-1])
 I_trap = h_trap * sum_trap
 
