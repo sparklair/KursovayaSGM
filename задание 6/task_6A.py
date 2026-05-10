@@ -21,3 +21,5 @@ for i in range(count_x):
 	y1 = y[i] + h/6 * (k0 + 2*k1 + 2*k2 + k3)
 	print(f'Y для i={i} равен -> {y1:.4f}')
 	y.append(y1)
+	
+input("\nНажмите любую кнопку, чтобы выйти...")

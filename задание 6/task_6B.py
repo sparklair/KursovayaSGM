@@ -89,3 +89,4 @@ for i in range(len(x)):
     row = (f'{i:2} | {xi:8.4f} | {fmt(yi)} | {fmt(dyi)} | {fmt(fi)} | {fmt(qi)} | {fmt(dqi)} | {fmt(d2qi)} | {fmt(d3qi)}')
     print(row)
 print('='*100)
+input("\nНажмите любую кнопку, чтобы выйти...")
